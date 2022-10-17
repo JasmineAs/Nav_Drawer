@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <!--- Aqui se encuentran todos los items que se mostraran en la barra lateral -->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_casita"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_box"
+            android:icon="@drawable/caja"
+            android:title="@string/menu_caja" />
+        <item
+            android:id="@+id/nav_fav"
+            android:icon="@drawable/ic_fav"
+            android:title="@string/menu_fav" />
+        <item
+            android:id="@+id/nav_vender"
+            android:icon="@drawable/ic_prod"
+            android:title="@string/menu_vender" />
+
+
+    </group>
+</menu>

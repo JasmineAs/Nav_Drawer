@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.Act13.AppBarOverlay">
+        <!--- Barra superior -->
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/purple_200"
+            app:popupTheme="@style/Theme.Act13.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <!--- incluye al contenedor en donde se muestran los diferentes fragments-->
+    <include layout="@layout/content_main" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
